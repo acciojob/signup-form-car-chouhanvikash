@@ -14,11 +14,13 @@
 		<label for="email">Email</label>
 		<input type="email" id="email" placeholder="Email" required>
 		<br><br>
-		<label for="di">Gender</label>
-		<div id="di">
-			<input type="radio" id="gender_m">Male
-			<input type="radio" id="gender_f">female
-		</div>
+		<label for="gender_m">Male</label>
+		
+			<input type="radio" id="gender_m" name="gender">
+		<br>
+		<label for="gender_f" >Female</label>
+			<input type="radio" id="gender_f" name="gender">
+		<br><br>
 		<label for="cars">Car Brands</label>
 		<select id="cars" placeholder="Please choose an option" required>
 			<option>Bmw</option>
@@ -26,12 +28,24 @@
 			<option>MAruti Suzuki</option>
 			
 		</select>
-		<br>
+<br><br>
 		<label for="age">Age</label>
 		<input type="number" id="age" placeholder="Age" required >
-		<br>
-		<label id="dob"></label>
-		<input type="date"  id="dob" required
+		<br><br>
+		<label id="dob">DOB</label>
+		<input type="date"  id="dob" required>
+
+		<br><br>
+		<label for="tel">Phone Number</label>
+		<input type="tel" placeholder="xxx-xxx-xxxx" id="tel"  >
+
+		<br><br>
+		<label for="password">Password</label>
+		<input type="password" placeholder="Password" id="password" required >
+	<br><br>
+		<label for="tos">I agree to the TOS</label>
+		<input type="checkbox" id="tos" required >
+	
 	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
